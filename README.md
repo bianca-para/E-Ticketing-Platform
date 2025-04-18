@@ -1,4 +1,5 @@
 LISTA DE OBIECTE
+
 Event – reprezinta un eveniment organizat
 Venue – locatia in care are loc un eveniment
 Category – genul evenimentului (MUSIC, TECH etc.)
