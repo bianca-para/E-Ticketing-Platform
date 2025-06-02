@@ -1,0 +1,8 @@
+Action,Timestamp
+createVenue_FAILED - Venue ID: v2, Error: Database operation failed,2025-06-03 02:00:26
+registerUser_FAILED - User ID: u2, Error: Database operation failed,2025-06-03 02:00:26
+findVenueById - Venue ID: v1, Found: Sala Mare,2025-06-03 02:00:26
+findVenueById - Venue ID: v2, Found: Sala Palatului,2025-06-03 02:00:26
+findVenueById - Venue ID: v3, Found: Arena Nationala,2025-06-03 02:00:26
+createEvent_FAILED - Event ID: e2, Error: Database operation failed,2025-06-03 02:00:26
+listVenues - Found 7 venues,2025-06-03 02:00:30
