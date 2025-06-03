@@ -29,10 +29,7 @@ public class InteractiveMain {
             ticketService = TicketService.getInstance();
             auditService = AuditService.getInstance();
 
-            System.out.println("All services initialized successfully!");
-
             initializeTestData();
-
             showMainMenu();
 
         } catch (Exception e) {
@@ -45,15 +42,10 @@ public class InteractiveMain {
 
     private static void initializeTestData() {
 
-        try {
             createSampleVenues();
             createSampleUsers();
             createSampleEvents();
 
-            System.out.println("Test data initialized!");
-        } catch (Exception e) {
-            System.out.println("Some test data might already exist (this is normal)");
-        }
     }
 
     private static void createSampleVenues() {
